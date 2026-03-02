@@ -1,0 +1,41 @@
+{
+  "Part1": {
+    "c": 520,
+    "epsilon": 0.05,
+    "Q_R_func": "1.0 * (20 + 3 * cos(t/4))"
+  },
+  "Part2": {
+    "c": 520,
+    "epsilon": 0.05,
+    "Q_R_func": "0"
+  },
+  "Part3": {
+    "c": 900,
+    "epsilon": 0.1,
+    "Q_R_func": "0"
+  },
+  "Part4": {
+    "c": 840,
+    "epsilon": 0.01,
+    "Q_R_func": "0"
+  },
+  "Part5": {
+    "c": 900,
+    "epsilon": 0.1,
+    "Q_R_func": "0"
+  },
+  "lambdas": {
+    "Part1-Part2": 20,
+    "Part2-Part3": 130,
+    "Part3-Part4": 10.5,
+    "Part4-Part5": 119
+  },
+  "manual_areas": {
+    "Part2-Part3": 1.5,
+    "Part3-Part4": 0.8,
+    "Part4-Part5": 0.8
+  },
+  "global": {
+    "T_start_fixed": 300
+  }
+}
